@@ -20,20 +20,17 @@ static const char *colors[][3] = {
 };
 
 static const char *const autostart[] = {
-	"/home/lyubenk/.fehbg",
-	NULL,
-    "slstatus",
+    "/home/lyubenk/.fehbg",
     NULL,
-    "setxkbmap",
-    "-model pc105 -layout us,bg -variant ,phonetic -option caps:escape_shifted_capslock,grp:alt_shift_toggle",
+    "easyeffects",
+    "--gapplication-service",
+    NULL,
+    "slstatus",
     NULL,
     "dunst",
     NULL,
     "redshift",
     "-l 42.15:24.75",
-    NULL,
-    "xscreensaver",
-    "--no-splash",
     NULL,
     NULL};
 
