@@ -67,5 +67,5 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ hostname, "%s|",           NULL},
 	{ keymap,   "%s|",           NULL},
-	{ datetime, "%s",           "%H:%M" },
+	{ datetime, "%s",           "%H:%M (%a %b/%d)" },
 };
